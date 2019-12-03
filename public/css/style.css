@@ -8,6 +8,10 @@ header .my_nav {
   border-bottom: 1px solid grey;
 }
 
+header .my_nav .logo img {
+  vertical-align: baseline;
+}
+
 header .pages {
   list-style-type: none;
   display: -webkit-box;
@@ -64,6 +68,11 @@ header .my_height button {
   background: #30488f;
   border-radius: 7px;
   border: 0;
+}
+
+header .my_height button img {
+  width: 20px;
+  vertical-align: middle;
 }
 
 .my_bg {
@@ -167,14 +176,14 @@ header .my_height button {
 }
 
 .my_style-cont .container_info-odd h4 {
-  width: 45%;
-  font-size: 35px;
+  width: 50%;
+  font-size: 30px;
   font-weight: bold;
 }
 
 .my_style-cont .container_info-odd h6 {
   width: 50%;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .my_style-cont .container_info-odd img {
@@ -216,14 +225,14 @@ header .my_height button {
 }
 
 .my_style-cont .container_info-even h4 {
-  width: 45%;
-  font-size: 35px;
+  width: 50%;
+  font-size: 30px;
   font-weight: bold;
 }
 
 .my_style-cont .container_info-even h6 {
   width: 50%;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .my_style-cont .container_info-even img {
@@ -314,6 +323,11 @@ header .my_height button {
   background: #30488f;
   border-radius: 7px;
   border: 0;
+}
+
+.my_bg2 .my_info-global .global_button button img {
+  width: 20px;
+  vertical-align: middle;
 }
 
 .my_bg2 .my_info-global .global_button p {

@@ -52,13 +52,13 @@
         color:$primary-color-text;
         align-items: flex-start;
         h4{
-            width:45%;
-            font-size:35px;
+            width:50%;
+            font-size:30px;
             font-weight: bold;
         }
         h6{
             width:50%;
-            font-size:25px;
+            font-size:20px;
         }
         img{
             width:300px;
@@ -81,13 +81,13 @@
         color:$primary-color-text;
         align-items: flex-end;
         h4{
-            width:45%;
-            font-size:35px;
+            width:50%;
+            font-size:30px;
             font-weight: bold;
         }
         h6{
             width:50%;
-            font-size:25px;
+            font-size:20px;
         }
         img{
             width:300px;
@@ -152,6 +152,10 @@
                 button{
                     margin-top:20px;
                     @include button-primary;
+                    img{
+                        width:20px;
+                        vertical-align:middle;
+                    }
                 }
                 p{
                     text-align: center;
