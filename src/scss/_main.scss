@@ -40,6 +40,7 @@
 
 /* section2 */
 .my_style-cont{
+    @include margin-bot-top;
     .container_img-odd{
         @include flex-end;
         img{
@@ -104,16 +105,34 @@
 
 .my_bg2{
     background:$bg-primary;
+    color:$primary-color-text;
     text-align: left;
     .my_info-global{
         @include flex-column;
+        h3{
+            margin-top:30px;
+            text-align: center;
+            font-size: 40px;
+            width:45%;
+            img{
+                vertical-align: baseline;
+            }
+        }
         .my_global-p{
             width:60%;
             background:white;
             border-radius: 5px;
             padding:25px;
+            position:relative;
+            margin-top:30px;
             p{
-                margin-bottom:10px;
+                margin-bottom:10px; 
+            }
+            .quote{
+                position:absolute;
+                width:5%;
+                top:-4.5%;
+                left:0;
             }
             .founders{
                 @include flex-start;

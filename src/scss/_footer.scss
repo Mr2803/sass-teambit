@@ -1,0 +1,29 @@
+footer{
+    .col-4{
+        padding:30px;
+    }
+    .footer_info{
+        ul{
+            padding:30px;
+            width:calc(100 / 5) - 30px;
+            list-style-type: none;
+            color:$primary-color-text;
+
+            li:first-child{
+                font-weight: bold;
+                margin-bottom:15px;
+                
+            }
+            li{
+                margin-bottom:10px;
+            }
+            a{
+                text-decoration: none;
+                color:$primary-color-text;
+                &:hover{
+                    color:$second-color-text;
+                }
+            }
+        }
+    }
+}

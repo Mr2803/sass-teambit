@@ -133,6 +133,11 @@ header .my_height button {
 
 /* section2 */
 
+.my_style-cont {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
 .my_style-cont .container_img-odd {
   display: -webkit-box;
   display: flex;
@@ -235,6 +240,7 @@ header .my_height button {
 
 .my_bg2 {
   background: #ffe7d2;
+  color: #58402c;
   text-align: left;
 }
 
@@ -250,15 +256,35 @@ header .my_height button {
           align-items: center;
 }
 
+.my_bg2 .my_info-global h3 {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 40px;
+  width: 45%;
+}
+
+.my_bg2 .my_info-global h3 img {
+  vertical-align: baseline;
+}
+
 .my_bg2 .my_info-global .my_global-p {
   width: 60%;
   background: white;
   border-radius: 5px;
   padding: 25px;
+  position: relative;
+  margin-top: 30px;
 }
 
 .my_bg2 .my_info-global .my_global-p p {
   margin-bottom: 10px;
+}
+
+.my_bg2 .my_info-global .my_global-p .quote {
+  position: absolute;
+  width: 5%;
+  top: -4.5%;
+  left: 0;
 }
 
 .my_bg2 .my_info-global .my_global-p .founders {
@@ -292,6 +318,35 @@ header .my_height button {
 
 .my_bg2 .my_info-global .global_button p {
   text-align: center;
+}
+
+footer .col-4 {
+  padding: 30px;
+}
+
+footer .footer_info ul {
+  padding: 30px;
+  width: calc(100 / 5)-30px;
+  list-style-type: none;
+  color: #58402c;
+}
+
+footer .footer_info ul li:first-child {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+footer .footer_info ul li {
+  margin-bottom: 10px;
+}
+
+footer .footer_info ul a {
+  text-decoration: none;
+  color: #58402c;
+}
+
+footer .footer_info ul a:hover {
+  color: #30488f;
 }
 
 * {
