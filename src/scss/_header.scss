@@ -12,12 +12,12 @@ header{
             font-weight: bold;
         }
         li:last-child{
-            border:1px solid #30488f;
+            border:1px solid $second-color-text;
             border-radius:10px;
             padding:5px;
-            color:#30488f;
+            color:$second-color-text;
             &:hover{
-                background:#30488f;
+                background:$second-color-text;
                 color:white;
             }
         }

@@ -131,6 +131,57 @@ header .my_height button {
   margin-bottom: 50px;
 }
 
+/* section2 */
+
+.my_style-cont .container_img {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.my_style-cont .container_img img {
+  width: 80%;
+}
+
+.my_style-cont .container_info {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  color: #58402c;
+  -webkit-box-align: start;
+          align-items: start;
+}
+
+.my_style-cont .container_info h4 {
+  width: 45%;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.my_style-cont .container_info h6 {
+  width: 50%;
+  font-size: 25px;
+}
+
+.my_style-cont .container_info img {
+  width: 300px;
+}
+
+.my_style-cont .container_info a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #30488f;
+}
+
 * {
   margin: 0;
   padding: 0;
