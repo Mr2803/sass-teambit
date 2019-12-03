@@ -24,11 +24,20 @@ header{
     }
     .my_height{
         height: 600px;
+        color:$primary-color-text;
+        h1{
+            font-size: 50px;
+            font-weight: bold;
+            margin-bottom:30px;
+        }
         @include flex-center;
         .my_style-img{
             img{
             width: 100%;
             }
+        }
+        button{
+            @include button-primary;
         }
     }
 

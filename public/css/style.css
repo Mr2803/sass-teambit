@@ -37,6 +37,7 @@ header .pages li:last-child:hover {
 
 header .my_height {
   height: 600px;
+  color: #58402c;
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: center;
@@ -45,8 +46,24 @@ header .my_height {
           align-items: center;
 }
 
+header .my_height h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
 header .my_height .my_style-img img {
   width: 100%;
+}
+
+header .my_height button {
+  height: 35px;
+  padding: 0 20px;
+  color: #fff;
+  font-size: 0.875rem;
+  background: #30488f;
+  border-radius: 7px;
+  border: 0;
 }
 
 * {
