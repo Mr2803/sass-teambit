@@ -1,0 +1,28 @@
+.my_bg{
+    background:$bg-primary;
+    h4{
+        color:$primary-color-text;
+        text-align: center;
+        margin-top:20px;
+        margin-bottom:50px;
+    }
+    .my_style-col{
+        @include flex-center;
+        .img_cont{
+            @include flex-column;
+            margin:20px;
+            img{
+                width:200px;
+                margin-bottom:15px;
+                height: 150px;
+            }
+        }
+    }
+    .img_cont-before{
+            @include flex-center;
+            img{
+                width:350px;
+                margin-top:20px;
+            }
+        }
+}

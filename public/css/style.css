@@ -66,6 +66,59 @@ header .my_height button {
   border: 0;
 }
 
+.my_bg {
+  background: #ffe7d2;
+}
+
+.my_bg h4 {
+  color: #58402c;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.my_bg .my_style-col {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.my_bg .my_style-col .img_cont {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  margin: 20px;
+}
+
+.my_bg .my_style-col .img_cont img {
+  width: 200px;
+  margin-bottom: 15px;
+  height: 150px;
+}
+
+.my_bg .img_cont-before {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.my_bg .img_cont-before img {
+  width: 350px;
+  margin-top: 20px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -74,5 +127,9 @@ header .my_height button {
 
 .debug {
   border: 1px solid black;
+}
+
+.my_border {
+  border-bottom: 1px solid grey;
 }
 
