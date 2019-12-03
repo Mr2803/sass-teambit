@@ -100,12 +100,19 @@ header .my_height button {
 }
 
 .my_bg .my_style-col .img_cont img {
-  width: 200px;
+  width: 180px;
   margin-bottom: 15px;
   height: 150px;
 }
 
-.my_bg .img_cont-before {
+.my_bg .my_style-col .img_cont p {
+  color: #58402c;
+  width: 60%;
+  text-align: center;
+}
+
+.my_bg .img_cont-before,
+.my_bg .img_cont-after {
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: center;
@@ -114,9 +121,14 @@ header .my_height button {
           align-items: center;
 }
 
-.my_bg .img_cont-before img {
+.my_bg .img_cont-before img,
+.my_bg .img_cont-after img {
   width: 350px;
   margin-top: 20px;
+}
+
+.my_bg .img_cont-before img {
+  margin-bottom: 50px;
 }
 
 * {

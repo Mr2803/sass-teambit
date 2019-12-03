@@ -12,17 +12,28 @@
             @include flex-column;
             margin:20px;
             img{
-                width:200px;
+                width:180px;
                 margin-bottom:15px;
                 height: 150px;
             }
+            p{
+                color:$primary-color-text;
+                width: 60%;
+                text-align: center;
+            }
         }
     }
-    .img_cont-before{
+    .img_cont-before,
+    .img_cont-after{
             @include flex-center;
             img{
                 width:350px;
                 margin-top:20px;
             }
         }
+    .img_cont-before{
+        img{
+             margin-bottom:50px;
+        }
+    }
 }
