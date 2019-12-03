@@ -1,0 +1,36 @@
+header{
+    .my_nav{
+        @include flex-between;
+        border-bottom:1px solid grey;
+    }
+    .pages{
+        list-style-type: none;
+        @include flex-around;
+        li{
+            margin:5px;
+            color:$primary-color-text;
+            font-weight: bold;
+        }
+        li:last-child{
+            border:1px solid #30488f;
+            border-radius:10px;
+            padding:5px;
+            color:#30488f;
+            &:hover{
+                background:#30488f;
+                color:white;
+            }
+        }
+    }
+    .my_height{
+        height: 600px;
+        @include flex-center;
+        .my_style-img{
+            img{
+            width: 100%;
+            }
+        }
+    }
+
+    
+}
