@@ -453,7 +453,7 @@ footer .col-4 .glob-footer-logo p a {
 
 footer .footer_info ul {
   padding: 30px;
-  width: calc(100 / 5)-30px;
+  width: calc(100% / 4);
   list-style-type: none;
   color: #58402c;
 }
@@ -508,6 +508,7 @@ footer .footer_info ul a:hover {
   height: 650px;
   overflow-y: scroll;
   border-radius: 10px;
+  box-shadow: 0 0 3px grey;
 }
 
 .chat .logo {

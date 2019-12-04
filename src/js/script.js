@@ -8,4 +8,20 @@ $(document).ready(function(){
             $(".chat").addClass("hidden");
         }
     })
+
+    $('.chat').bind('mousewheel', function (e) {
+        if (e.originalEvent.wheelDelta / 20 < 0) {
+            $(".logo h3").hide();
+            $(".true_logo").hide();
+            $(".first_p").hide();
+            $(".option.first").css("margin-top","80px");
+            
+        }
+        else if (e.originalEvent.wheelDelta / 20 > 0){
+            $(".logo h3").show()
+            $(".true_logo").show()
+            $(".first_p").show()
+            $(".option.first").css("margin-top", "0");
+        }
+    });
 })
