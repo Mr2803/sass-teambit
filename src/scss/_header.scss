@@ -66,5 +66,16 @@ header{
         span{
             @include or-betw-button;
         }
+        p{
+            margin-top:15px;
+            a{
+                text-decoration: none;
+                font-size: 13px;
+                color:$primary-color-text;
+                &:hover{
+                    color:$second-color-text;
+                }
+            }
+        }
     }
 }

@@ -104,6 +104,20 @@ header .my_height span {
   color: #bdb5af;
 }
 
+header .my_height p {
+  margin-top: 15px;
+}
+
+header .my_height p a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #58402c;
+}
+
+header .my_height p a:hover {
+  color: #30488f;
+}
+
 .my_bg {
   background: #ffe7d2;
 }
@@ -460,6 +474,79 @@ footer .footer_info ul a {
 
 footer .footer_info ul a:hover {
   color: #30488f;
+}
+
+.chat_box {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  width: 60px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 50%;
+  padding: 20px;
+  background: #30488f;
+  z-index: 999;
+}
+
+.chat_box i {
+  color: white;
+  font-size: 25px;
+}
+
+.chat {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  width: 20%;
+  background: white;
+  z-index: 998;
+  height: 650px;
+  overflow-y: scroll;
+  border-radius: 10px;
+}
+
+.chat .logo {
+  padding: 10px;
+  background-size: 378px 378px, cover;
+  background-image: url(https://js.intercomcdn.com/images/background-16.8e2e0b27.png), linear-gradient(135deg, #ffe7d2 0%, #ffb16c 100%);
+  height: 30%;
+}
+
+.chat .logo .option {
+  background: white;
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 5px;
+  border-top: 2px solid #30488f;
+  box-shadow: 0 0 3px grey;
+  margin-bottom: 10px;
+}
+
+.chat .logo .option img {
+  width: 50px;
+}
+
+.chat .logo .option button {
+  background: #30488f;
+  border: 0;
+  border-radius: 15px;
+  color: white;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.chat .logo .option button i {
+  margin-right: 10px;
+}
+
+.hidden {
+  display: none;
 }
 
 * {
