@@ -12,18 +12,33 @@ header{
         list-style-type: none;
         @include flex-around;
         li{
-            margin:5px;
+            margin:10px;
             color:$primary-color-text;
-            font-weight: bold;
+            font-weight: 500;
         }
         li:last-child{
             border:1px solid $second-color-text;
             border-radius:10px;
             padding:5px;
             color:$second-color-text;
+            .my_signup{
+                svg{
+                    @include icon-google-slack;
+                    vertical-align: sub;
+                    margin-right:10px;
+                }
+            }
+
             &:hover{
                 background:$second-color-text;
                 color:white;
+                transition:0.7s;
+                svg{
+                    path{
+                        fill:white ;
+                        transition:0.7s;
+                    }
+                }
             }
         }
     }
@@ -44,8 +59,7 @@ header{
         button{
             @include button-primary;
             img{
-                width:20px;
-                vertical-align:middle;
+                @include icon-google-slack;
             }
         }
     }

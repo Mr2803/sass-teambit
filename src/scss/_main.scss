@@ -153,8 +153,7 @@
                     margin-top:20px;
                     @include button-primary;
                     img{
-                        width:20px;
-                        vertical-align:middle;
+                       @include icon-google-slack;
                     }
                 }
                 p{

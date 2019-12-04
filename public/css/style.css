@@ -22,9 +22,9 @@ header .pages {
 }
 
 header .pages li {
-  margin: 5px;
+  margin: 10px;
   color: #58402c;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 header .pages li:last-child {
@@ -34,9 +34,24 @@ header .pages li:last-child {
   color: #30488f;
 }
 
+header .pages li:last-child .my_signup svg {
+  width: 20px;
+  vertical-align: middle;
+  vertical-align: sub;
+  margin-right: 10px;
+}
+
 header .pages li:last-child:hover {
   background: #30488f;
   color: white;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+header .pages li:last-child:hover svg path {
+  fill: white;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
 }
 
 header .my_height {
