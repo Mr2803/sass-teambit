@@ -1,28 +1,9 @@
-@mixin flex-between{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
+@mixin flex($just-cont){
+display:flex;
+justify-content: $just-cont;
+align-items: center;
 }
-@mixin flex-around{
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-}
-@mixin flex-center{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-@mixin flex-end{
-    display:flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-@mixin flex-start{
-    display:flex;
-    justify-content: flex-start;
-    align-items: center;
-}
+
 
 @mixin flex-column{
     display:flex;
@@ -36,7 +17,7 @@
     padding: 0 20px;
     color: #fff;
     font-size: .875rem;
-    background: #30488f;
+    background: $second-color-text;
     border-radius: 7px;
     border:0;
     cursor: pointer;

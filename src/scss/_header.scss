@@ -1,6 +1,6 @@
 header{
     .my_nav{
-        @include flex-between;
+        @include flex(space-between);
         border-bottom:1px solid grey;
         .logo{
             img{
@@ -10,7 +10,7 @@ header{
     }
     .pages{
         list-style-type: none;
-        @include flex-around;
+        @include flex(space-around);
         li{
             margin:10px;
             color:$primary-color-text;
@@ -51,7 +51,7 @@ header{
             font-weight: bold;
             margin-bottom:30px;
         }
-        @include flex-center;
+        @include flex(center);
         .my_style-img{
             img{
             width: 100%;

@@ -1,6 +1,22 @@
 footer{
     .col-4{
         padding:30px;
+        .glob-footer-logo{
+            @include flex(flex-start);
+            align-items: flex-start;
+            img{
+                width: 9rem;
+                margin-right:10px;
+            }
+            p{
+                font-size: 18px;
+                font-weight: 600;
+                color:$primary-color-text;
+                a{
+                    color:$second-color-text;
+                }
+            }
+        }
     }
     .footer_info{
         ul{

@@ -7,7 +7,7 @@
         margin-bottom:50px;
     }
     .my_style-col{
-        @include flex-center;
+        @include flex(center);
         .img_cont{
             @include flex-column;
             margin:20px;
@@ -25,7 +25,7 @@
     }
     .img_cont-before,
     .img_cont-after{
-            @include flex-center;
+            @include flex(center);
             img{
                 width:350px;
                 margin-top:20px;
@@ -42,7 +42,7 @@
 .my_style-cont{
     @include margin-bot-top;
     .container_img-odd{
-        @include flex-end;
+        @include flex(flex-end);
         img{
             width: 80%;
         }
@@ -72,7 +72,7 @@
 
     }
      .container_img-even{
-        @include flex-start;
+        @include flex(flex-start);
         img{
             width: 80%;
         }
@@ -133,13 +133,13 @@
             .quote{
                 position:absolute;
                 width:5%;
-                top:-4.5%;
+                top:-4.8%;
                 left:0;
             }
             .founders{
-                @include flex-start;
+                @include flex(flex-start);
                 img{
-                    width:50px;
+                    width:40px;
                     margin-right: 5px;
                 }
                 .founders_name{
@@ -167,6 +167,15 @@
                 }
                 p{
                     text-align: center;
+                    margin-top:15px;
+                }
+                a{
+                    text-decoration: none;
+                    font-size: 13px;
+                    color:$primary-color-text;
+                    &:hover{
+                        color:$second-color-text;
+                    }
                 }
 
             }

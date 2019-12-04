@@ -338,7 +338,7 @@ header .my_height span {
 .my_bg2 .my_info-global .my_global-p .quote {
   position: absolute;
   width: 5%;
-  top: -4.5%;
+  top: -4.8%;
   left: 0;
 }
 
@@ -352,7 +352,7 @@ header .my_height span {
 }
 
 .my_bg2 .my_info-global .my_global-p .founders img {
-  width: 50px;
+  width: 40px;
   margin-right: 5px;
 }
 
@@ -394,10 +394,47 @@ header .my_height span {
 
 .my_bg2 .my_info-global .global_button p {
   text-align: center;
+  margin-top: 15px;
+}
+
+.my_bg2 .my_info-global .global_button a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #58402c;
+}
+
+.my_bg2 .my_info-global .global_button a:hover {
+  color: #30488f;
 }
 
 footer .col-4 {
   padding: 30px;
+}
+
+footer .col-4 .glob-footer-logo {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-align: start;
+          align-items: flex-start;
+}
+
+footer .col-4 .glob-footer-logo img {
+  width: 9rem;
+  margin-right: 10px;
+}
+
+footer .col-4 .glob-footer-logo p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #58402c;
+}
+
+footer .col-4 .glob-footer-logo p a {
+  color: #30488f;
 }
 
 footer .footer_info ul {
