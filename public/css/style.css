@@ -1,3 +1,5 @@
+/* section3 */
+
 header .my_nav {
   display: -webkit-box;
   display: flex;
@@ -32,6 +34,7 @@ header .pages li:last-child {
   border-radius: 10px;
   padding: 5px;
   color: #30488f;
+  cursor: pointer;
 }
 
 header .pages li:last-child .my_signup svg {
@@ -83,11 +86,22 @@ header .my_height button {
   background: #30488f;
   border-radius: 7px;
   border: 0;
+  cursor: pointer;
+}
+
+header .my_height button:hover {
+  background: #223366;
 }
 
 header .my_height button img {
   width: 20px;
   vertical-align: middle;
+}
+
+header .my_height span {
+  margin: 0 10px;
+  font-size: small;
+  color: #bdb5af;
 }
 
 .my_bg {
@@ -207,8 +221,16 @@ header .my_height button img {
 
 .my_style-cont .container_info-odd a {
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
   color: #30488f;
+}
+
+.my_style-cont .container_info-odd a i {
+  vertical-align: middle;
+}
+
+.my_style-cont .container_info-odd a:hover {
+  color: #58402c;
 }
 
 .my_style-cont .container_img-even {
@@ -256,8 +278,17 @@ header .my_height button img {
 
 .my_style-cont .container_info-even a {
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
   color: #30488f;
+  width: 50%;
+}
+
+.my_style-cont .container_info-even a i {
+  vertical-align: middle;
+}
+
+.my_style-cont .container_info-even a:hover {
+  color: #58402c;
 }
 
 /* section3 */
@@ -326,7 +357,12 @@ header .my_height button img {
 }
 
 .my_bg2 .my_info-global .my_global-p .founders .founders_name p {
-  margin-bottom: 5px;
+  margin-bottom: 2px;
+  font-size: 13px;
+}
+
+.my_bg2 .my_info-global .my_global-p .founders .founders_name p:first-child {
+  color: #30488f;
 }
 
 .my_bg2 .my_info-global .global_button button {
@@ -338,11 +374,22 @@ header .my_height button img {
   background: #30488f;
   border-radius: 7px;
   border: 0;
+  cursor: pointer;
+}
+
+.my_bg2 .my_info-global .global_button button:hover {
+  background: #223366;
 }
 
 .my_bg2 .my_info-global .global_button button img {
   width: 20px;
   vertical-align: middle;
+}
+
+.my_bg2 .my_info-global .global_button span {
+  margin: 0 10px;
+  font-size: small;
+  color: #bdb5af;
 }
 
 .my_bg2 .my_info-global .global_button p {

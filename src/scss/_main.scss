@@ -52,21 +52,22 @@
         color:$primary-color-text;
         align-items: flex-start;
         h4{
-            width:50%;
-            font-size:30px;
-            font-weight: bold;
+            @include sect3-h4;
         }
         h6{
-            width:50%;
-            font-size:20px;
+            @include sect3-h6;
         }
         img{
             width:300px;
         }
         a{
-            text-decoration:none;
-            font-size: 25px;
-            color:$second-color-text;
+            @include sect3-a;
+            i{
+                vertical-align: middle;
+            }
+        &:hover{
+            color:$primary-color-text;
+        }
         }
 
     }
@@ -81,23 +82,24 @@
         color:$primary-color-text;
         align-items: flex-end;
         h4{
-            width:50%;
-            font-size:30px;
-            font-weight: bold;
+            @include sect3-h4;
         }
         h6{
-            width:50%;
-            font-size:20px;
+            @include sect3-h6;
         }
         img{
             width:300px;
         }
         a{
-            text-decoration:none;
-            font-size: 25px;
-            color:$second-color-text;
+            @include sect3-a;
+            width: 50%;
+            i{
+                vertical-align: middle;
+            }
+        &:hover{
+            color:$primary-color-text;
         }
-
+        }
     }
 }
 
@@ -142,7 +144,11 @@
                 }
                 .founders_name{
                     p{
-                        margin-bottom: 5px;
+                        margin-bottom: 2px;
+                        font-size: 13px;
+                    }
+                    p:first-child{
+                        color:$second-color-text;
                     }
                 }
             }
@@ -155,6 +161,9 @@
                     img{
                        @include icon-google-slack;
                     }
+                }
+                span{
+                    @include or-betw-button;
                 }
                 p{
                     text-align: center;

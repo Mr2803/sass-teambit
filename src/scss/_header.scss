@@ -21,6 +21,7 @@ header{
             border-radius:10px;
             padding:5px;
             color:$second-color-text;
+            cursor:pointer;
             .my_signup{
                 svg{
                     @include icon-google-slack;
@@ -32,11 +33,11 @@ header{
             &:hover{
                 background:$second-color-text;
                 color:white;
-                transition:0.7s;
+                @include gener-transition;
                 svg{
                     path{
                         fill:white ;
-                        transition:0.7s;
+                        @include gener-transition;
                     }
                 }
             }
@@ -62,7 +63,8 @@ header{
                 @include icon-google-slack;
             }
         }
+        span{
+            @include or-betw-button;
+        }
     }
-
-    
 }

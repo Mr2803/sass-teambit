@@ -39,6 +39,10 @@
     background: #30488f;
     border-radius: 7px;
     border:0;
+    cursor: pointer;
+    &:hover{
+        background:#223366;
+    }
 }
 @mixin margin-bot-top{
     margin-top:100px;
@@ -47,4 +51,28 @@
 @mixin icon-google-slack {
     width:20px;
     vertical-align:middle;
+}
+@mixin gener-transition {
+    transition:$generic-transition;
+}
+@mixin or-betw-button {
+    margin:0 10px;
+    font-size: small;
+    color:#bdb5af;
+}
+
+/* section3 */
+@mixin sect3-h4{
+    width:50%;
+    font-size:30px;
+    font-weight: bold;
+}
+@mixin sect3-h6{
+    width:50%;
+    font-size:20px;
+}
+@mixin sect3-a{
+    text-decoration:none;
+    font-size: 20px;
+    color:$second-color-text;
 }
