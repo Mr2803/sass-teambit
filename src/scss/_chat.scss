@@ -52,6 +52,18 @@
                     margin-right:10px;
                 }
             }
+            .input-group-append{
+                span{
+                    background:$second-color-text;
+                    @include gener-transition;
+                    &:hover{
+                        background:rgb(58, 89, 184);
+                    }
+                    i{
+                        color:white;
+                    }
+                }
+            }
         }
     }
 }

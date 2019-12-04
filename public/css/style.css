@@ -545,6 +545,20 @@ footer .footer_info ul a:hover {
   margin-right: 10px;
 }
 
+.chat .logo .option .input-group-append span {
+  background: #30488f;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.chat .logo .option .input-group-append span:hover {
+  background: #3a59b8;
+}
+
+.chat .logo .option .input-group-append span i {
+  color: white;
+}
+
 .hidden {
   display: none;
 }
